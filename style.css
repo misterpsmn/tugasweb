@@ -94,7 +94,7 @@ body {
 }
 
 .nav-link {
-    margin-left: 30px;
+    margin-left: 25px;
     color: #3e2723;
     font-weight: 500;
     text-decoration: none;
@@ -648,6 +648,7 @@ body {
 
 .menu-cta {
     text-align: center;
+    margin-top: 20px;
 }
 
 .btn-view-menu {
@@ -665,6 +666,103 @@ body {
 .btn-view-menu:hover {
     background-color: #3e2723;
     color: white;
+}
+
+/* ===== DESSERT SECTION (BARU!) ===== */
+.dessert {
+    background-color: #fffefc;
+    position: relative;
+}
+
+.dessert::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(249, 245, 240, 0.8) 0%, rgba(255, 254, 252, 0.9) 100%);
+    z-index: -1;
+}
+
+.dessert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.dessert-item {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.dessert-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dessert-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #d4a574, #ffcc80);
+    z-index: 2;
+}
+
+.dessert-img {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.dessert-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.dessert-item:hover .dessert-img img {
+    transform: scale(1.1);
+}
+
+.dessert-content {
+    padding: 20px;
+    position: relative;
+}
+
+.dessert-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #3e2723;
+}
+
+.dessert-desc {
+    color: #795548;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.dessert-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #d4a574;
+    margin-bottom: 15px;
+}
+
+.dessert-cta {
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* ===== COFFEE SHOPS SECTION ===== */
@@ -949,6 +1047,12 @@ body {
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1200px) {
+    .container {
+        width: 95%;
+    }
+}
+
 @media (max-width: 992px) {
     .hero {
         height: 70vh;
@@ -969,6 +1073,10 @@ body {
     
     .section-title {
         font-size: 2.2rem;
+    }
+    
+    .dessert-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -1009,6 +1117,7 @@ body {
     
     .nav-link {
         margin: 15px 0;
+        font-size: 1.1rem;
     }
     
     .btn-order {
@@ -1059,6 +1168,10 @@ body {
         width: 100%;
         max-width: 200px;
     }
+    
+    .dessert-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1092,5 +1205,33 @@ body {
         bottom: 10px;
         right: 10px;
         gap: 10px;
+    }
+    
+    .section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .btn-order {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .slide-title {
+        font-size: 1.4rem;
+    }
+    
+    .slide-desc {
+        font-size: 0.9rem;
+    }
+    
+    .btn-slider {
+        padding: 10px 25px;
+        font-size: 0.9rem;
     }
 }
