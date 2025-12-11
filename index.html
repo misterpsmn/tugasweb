@@ -1,501 +1,495 @@
 <!DOCTYPE html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kopi Nusantara | Coffee Shop Terbaik di Jakarta</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
     <!-- Header & Navigation -->
     <header class="header">
-      <div class="container">
-        <nav class="navbar">
-          <a href="#home" class="logo">Kopi<span>Nusantara</span></a>
-
-          <ul class="nav-menu">
-            <li><a href="#home" class="nav-link active">Beranda</a></li>
-            <li><a href="#about" class="nav-link">Tentang</a></li>
-            <li><a href="#menu" class="nav-link">Menu</a></li>
-            <li><a href="#coffeeshops" class="nav-link">Coffee Shop</a></li>
-            <li><a href="#contact" class="nav-link">Kontak</a></li>
-          </ul>
-
-          <div class="nav-actions">
-            <button class="btn-order" id="orderBtn">Pesan Online</button>
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </div>
-        </nav>
-      </div>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">Kopi<span>Nusantara</span></a>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Beranda</a></li>
+                    <li><a href="#about" class="nav-link">Tentang</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#dessert" class="nav-link">Dessert</a></li>
+                    <li><a href="#coffeeshops" class="nav-link">Coffee Shop</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="btn-order" id="orderBtn">Pesan Online</button>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <!-- Hero Section dengan Slider -->
     <section class="hero" id="home">
-      <div class="slider-container">
-        <!-- Slides -->
-        <div class="slides">
-          <!-- Slide 1 -->
-          <div class="slide">
-            <img
-              src="https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80"
-              alt="Kopi Spesial Jakarta"
-            />
-            <div class="slide-content">
-              <h2 class="slide-title">Kopi Terbaik Jakarta</h2>
-              <p class="slide-desc">
-                Nikmati biji kopi pilihan dari berbagai daerah di Indonesia,
-                diseduh dengan teknik terbaik oleh barista profesional.
-              </p>
-              <a href="#menu" class="btn-slider">Lihat Menu</a>
+        <div class="slider-container">
+            <!-- Slides -->
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80" alt="Kopi Spesial Jakarta">
+                    <div class="slide-content">
+                        <h2 class="slide-title">Kopi Terbaik Jakarta</h2>
+                        <p class="slide-desc">Nikmati biji kopi pilihan dari berbagai daerah di Indonesia, diseduh dengan teknik terbaik oleh barista profesional.</p>
+                        <a href="#menu" class="btn-slider">Lihat Menu</a>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2047&q=80" alt="Suasana Coffee Shop">
+                    <div class="slide-content">
+                        <h2 class="slide-title">Atmosfer yang Nyaman</h2>
+                        <p class="slide-desc">Tempat yang sempurna untuk bekerja, berkumpul, atau sekedar bersantai menikmati waktu luang.</p>
+                        <a href="#coffeeshops" class="btn-slider">Lokasi Kami</a>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Menu Dessert">
+                    <div class="slide-content">
+                        <h2 class="slide-title">Dessert Homemade</h2>
+                        <p class="slide-desc">Temani kopi Anda dengan berbagai pilihan dessert lezat yang dibuat fresh setiap hari.</p>
+                        <a href="#dessert" class="btn-slider">Coba Dessert</a>
+                    </div>
+                </div>
+                
+                <!-- Slide 4 -->
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80" alt="Coffee Latte Art">
+                    <div class="slide-content">
+                        <h2 class="slide-title">Latte Art Eksklusif</h2>
+                        <p class="slide-desc">Setiap cangkir kopi disajikan dengan sentuhan seni latte yang memanjakan mata dan lidah.</p>
+                        <a href="#about" class="btn-slider">Pelajari Lebih</a>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="slide">
-            <img
-              src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2047&q=80"
-              alt="Suasana Coffee Shop"
-            />
-            <div class="slide-content">
-              <h2 class="slide-title">Atmosfer yang Nyaman</h2>
-              <p class="slide-desc">
-                Tempat yang sempurna untuk bekerja, berkumpul, atau sekedar
-                bersantai menikmati waktu luang.
-              </p>
-              <a href="#coffeeshops" class="btn-slider">Lokasi Kami</a>
+            
+            <!-- Navigation Buttons -->
+            <div class="slider-nav">
+                <button class="nav-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="nav-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
-          </div>
-
-          <!-- Slide 3 -->
-          <div class="slide">
-            <img
-              src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-              alt="Menu Dessert"
-            />
-            <div class="slide-content">
-              <h2 class="slide-title">Dessert Homemade</h2>
-              <p class="slide-desc">
-                Temani kopi Anda dengan berbagai pilihan dessert lezat yang
-                dibuat fresh setiap hari.
-              </p>
-              <a href="#menu" class="btn-slider">Coba Dessert</a>
+            
+            <!-- Dots Indicator -->
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
             </div>
-          </div>
-
-          <!-- Slide 4 -->
-          <div class="slide">
-            <img
-              src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80"
-              alt="Coffee Latte Art"
-            />
-            <div class="slide-content">
-              <h2 class="slide-title">Latte Art Eksklusif</h2>
-              <p class="slide-desc">
-                Setiap cangkir kopi disajikan dengan sentuhan seni latte yang
-                memanjakan mata dan lidah.
-              </p>
-              <a href="#about" class="btn-slider">Pelajari Lebih</a>
+            
+            <!-- Auto-play Controls -->
+            <div class="slider-controls">
+                <button class="control-btn play-pause-btn">
+                    <i class="fas fa-pause"></i>
+                </button>
+                <div class="slide-counter">
+                    <span class="current-slide">1</span> / <span class="total-slides">4</span>
+                </div>
             </div>
-          </div>
         </div>
-
-        <!-- Navigation Buttons -->
-        <div class="slider-nav">
-          <button class="nav-btn prev-btn">
-            <i class="fas fa-chevron-left"></i>
-          </button>
-          <button class="nav-btn next-btn">
-            <i class="fas fa-chevron-right"></i>
-          </button>
-        </div>
-
-        <!-- Dots Indicator -->
-        <div class="slider-dots">
-          <span class="dot active" data-slide="0"></span>
-          <span class="dot" data-slide="1"></span>
-          <span class="dot" data-slide="2"></span>
-          <span class="dot" data-slide="3"></span>
-        </div>
-
-        <!-- Auto-play Controls -->
-        <div class="slider-controls">
-          <button class="control-btn play-pause-btn">
-            <i class="fas fa-pause"></i>
-          </button>
-          <div class="slide-counter">
-            <span class="current-slide">1</span> /
-            <span class="total-slides">4</span>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- About Section -->
     <section class="about section" id="about">
-      <div class="container">
-        <h2 class="section-title">Tentang Kopi Nusantara</h2>
-        <div class="about-content">
-          <div class="about-image">
-            <img
-              src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-              alt="Coffee Shop Interior"
-            />
-          </div>
-          <div class="about-text">
-            <h3>Kopi Premium dengan Cita Rasa Nusantara</h3>
-            <p>
-              Kopi Nusantara hadir sejak 2015 dengan misi memperkenalkan
-              kekayaan rasa kopi Indonesia kepada masyarakat Jakarta. Kami
-              memilih biji kopi terbaik dari berbagai daerah seperti Aceh Gayo,
-              Toraja, Bali Kintamani, dan Papua Wamena.
-            </p>
-            <p>
-              Setiap cangkir kopi diracik dengan perhatian terhadap detail,
-              mulai dari pemilihan biji, tingkat sangrai, hingga teknik
-              penyeduhan yang tepat untuk menghasilkan rasa yang konsisten dan
-              berkualitas.
-            </p>
-
-            <div class="features">
-              <div class="feature">
-                <i class="fas fa-coffee"></i>
-                <span>Kopi Single Origin</span>
-              </div>
-              <div class="feature">
-                <i class="fas fa-leaf"></i>
-                <span>Bahan Organik</span>
-              </div>
-              <div class="feature">
-                <i class="fas fa-award"></i>
-                <span>Barista Bersertifikat</span>
-              </div>
-              <div class="feature">
-                <i class="fas fa-truck"></i>
-                <span>Gratis Ongkir Jakarta</span>
-              </div>
+        <div class="container">
+            <h2 class="section-title">Tentang Kopi Nusantara</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Coffee Shop Interior">
+                </div>
+                <div class="about-text">
+                    <h3>Kopi Premium dengan Cita Rasa Nusantara</h3>
+                    <p>Kopi Nusantara hadir sejak 2015 dengan misi memperkenalkan kekayaan rasa kopi Indonesia kepada masyarakat Jakarta. Kami memilih biji kopi terbaik dari berbagai daerah seperti Aceh Gayo, Toraja, Bali Kintamani, dan Papua Wamena.</p>
+                    <p>Setiap cangkir kopi diracik dengan perhatian terhadap detail, mulai dari pemilihan biji, tingkat sangrai, hingga teknik penyeduhan yang tepat untuk menghasilkan rasa yang konsisten dan berkualitas.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-coffee"></i>
+                            <span>Kopi Single Origin</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Bahan Organik</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <span>Barista Bersertifikat</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <span>Gratis Ongkir Jakarta</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Menu Section -->
     <section class="menu section" id="menu">
-      <div class="container">
-        <h2 class="section-title">Menu Unggulan</h2>
-        <div class="menu-grid">
-          <div class="menu-item">
-            <div class="menu-img">
-              <img
-                src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                alt="Espresso"
-              />
+        <div class="container">
+            <h2 class="section-title">Menu Kopi</h2>
+            <p class="section-subtitle">Racikan kopi spesial dari biji pilihan nusantara</p>
+            
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Espresso">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Espresso Single Origin</h3>
+                        <p class="menu-desc">Espresso kuat dengan biji kopi pilihan dari Toraja.</p>
+                        <div class="menu-price">Rp 35.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80" alt="Cappuccino">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Cappuccino Arabica</h3>
+                        <p class="menu-desc">Dengan busa susu lembut dan taburan kayu manis.</p>
+                        <div class="menu-price">Rp 42.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Latte">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Latte Art Special</h3>
+                        <p class="menu-desc">Latte dengan seni gambar eksklusif setiap harinya.</p>
+                        <div class="menu-price">Rp 45.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80" alt="Cold Brew">
+                    </div>
+                    <div class="menu-content">
+                        <h3 class="menu-title">Cold Brew Aceh Gayo</h3>
+                        <p class="menu-desc">Diseduh dingin selama 24 jam untuk rasa yang smooth.</p>
+                        <div class="menu-price">Rp 38.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
             </div>
-            <div class="menu-content">
-              <h3 class="menu-title">Espresso Single Origin</h3>
-              <p class="menu-desc">
-                Espresso kuat dengan biji kopi pilihan dari Toraja.
-              </p>
-              <div class="menu-price">Rp 35.000</div>
-              <button class="btn-add">+ Tambah</button>
+            
+            <div class="menu-cta">
+                <a href="#" class="btn-view-menu">Lihat Semua Menu</a>
             </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="menu-img">
-              <img
-                src="https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80"
-                alt="Cappuccino"
-              />
-            </div>
-            <div class="menu-content">
-              <h3 class="menu-title">Cappuccino Arabica</h3>
-              <p class="menu-desc">
-                Dengan busa susu lembut dan taburan kayu manis.
-              </p>
-              <div class="menu-price">Rp 42.000</div>
-              <button class="btn-add">+ Tambah</button>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="menu-img">
-              <img
-                src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                alt="Latte"
-              />
-            </div>
-            <div class="menu-content">
-              <h3 class="menu-title">Latte Art Special</h3>
-              <p class="menu-desc">
-                Latte dengan seni gambar eksklusif setiap harinya.
-              </p>
-              <div class="menu-price">Rp 45.000</div>
-              <button class="btn-add">+ Tambah</button>
-            </div>
-          </div>
-
-          <div class="menu-item">
-            <div class="menu-img">
-              <img
-                src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80"
-                alt="Cold Brew"
-              />
-            </div>
-            <div class="menu-content">
-              <h3 class="menu-title">Cold Brew Aceh Gayo</h3>
-              <p class="menu-desc">
-                Diseduh dingin selama 24 jam untuk rasa yang smooth.
-              </p>
-              <div class="menu-price">Rp 38.000</div>
-              <button class="btn-add">+ Tambah</button>
-            </div>
-          </div>
         </div>
+    </section>
 
-        <div class="menu-cta">
-          <a href="#" class="btn-view-menu">Lihat Selengkapnya</a>
+    <!-- Dessert Section (BARU!) -->
+    <section class="dessert section" id="dessert">
+        <div class="container">
+            <h2 class="section-title">Dessert & Pastry</h2>
+            <p class="section-subtitle">Homemade fresh every day to accompany your coffee</p>
+            
+            <div class="dessert-grid">
+                <!-- Dessert 1 -->
+                <div class="dessert-item">
+                    <div class="dessert-img">
+                        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1970&q=80" alt="Croissant">
+                    </div>
+                    <div class="dessert-content">
+                        <h3 class="dessert-title">Croissant Almond</h3>
+                        <p class="dessert-desc">Croissant dengan isian almond paste dan taburan almond slice.</p>
+                        <div class="dessert-price">Rp 28.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <!-- Dessert 2 -->
+                <div class="dessert-item">
+                    <div class="dessert-img">
+                        <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2065&q=80" alt="Chocolate Cake">
+                    </div>
+                    <div class="dessert-content">
+                        <h3 class="dessert-title">Chocolate Lava Cake</h3>
+                        <p class="dessert-desc">Coklat lava lembut dengan es krim vanilla dan berry compote.</p>
+                        <div class="dessert-price">Rp 45.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <!-- Dessert 3 -->
+                <div class="dessert-item">
+                    <div class="dessert-img">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80" alt="Cheesecake">
+                    </div>
+                    <div class="dessert-content">
+                        <h3 class="dessert-title">New York Cheesecake</h3>
+                        <p class="dessert-desc">Cheesecake creamy dengan dasar cracker dan topping buah segar.</p>
+                        <div class="dessert-price">Rp 42.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <!-- Dessert 4 -->
+                <div class="dessert-item">
+                    <div class="dessert-img">
+                        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2067&q=80" alt="Tiramisu">
+                    </div>
+                    <div class="dessert-content">
+                        <h3 class="dessert-title">Tiramisu Classico</h3>
+                        <p class="dessert-desc">Tiramisu klasik dengan kopi espresso dan mascarpone creamy.</p>
+                        <div class="dessert-price">Rp 38.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <!-- Dessert 5 -->
+                <div class="dessert-item">
+                    <div class="dessert-img">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Macarons">
+                    </div>
+                    <div class="dessert-content">
+                        <h3 class="dessert-title">French Macarons</h3>
+                        <p class="dessert-desc">Set of 6 macarons dengan berbagai rasa: vanilla, chocolate, strawberry.</p>
+                        <div class="dessert-price">Rp 55.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+                
+                <!-- Dessert 6 -->
+                <div class="dessert-item">
+                    <div class="dessert-img">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1989&q=80" alt="Brownies">
+                    </div>
+                    <div class="dessert-content">
+                        <h3 class="dessert-title">Fudge Brownies</h3>
+                        <p class="dessert-desc">Brownies coklat pekat dengan kacang walnut dan chocolate chips.</p>
+                        <div class="dessert-price">Rp 32.000</div>
+                        <button class="btn-add">+ Tambah</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dessert-cta">
+                <a href="#" class="btn-view-menu">Lihat Semua Dessert</a>
+            </div>
         </div>
-      </div>
     </section>
 
     <!-- Coffee Shops Jakarta Section -->
     <section class="coffeeshops section" id="coffeeshops">
-      <div class="container">
-        <h2 class="section-title">Coffee Shop Terbaik di Jakarta</h2>
-        <p class="section-subtitle">
-          Rekomendasi coffee shop premium di berbagai wilayah Jakarta
-        </p>
-
-        <div class="shops-grid">
-          <div class="shop-card">
-            <div class="shop-img">
-              <img
-                src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
-                alt="Kopi Nusantara Senayan"
-              />
+        <div class="container">
+            <h2 class="section-title">Coffee Shop Terbaik di Jakarta</h2>
+            <p class="section-subtitle">Rekomendasi coffee shop premium di berbagai wilayah Jakarta</p>
+            
+            <div class="shops-grid">
+                <div class="shop-card">
+                    <div class="shop-img">
+                        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Kopi Nusantara Senayan">
+                    </div>
+                    <div class="shop-content">
+                        <h3 class="shop-title">Kopi Nusantara Senayan</h3>
+                        <p class="shop-location"><i class="fas fa-map-marker-alt"></i> Jl. Senayan No. 45, Jakarta Selatan</p>
+                        <p class="shop-desc">Outlet flagship kami dengan interior modern dan kapasitas besar. Tersedia ruang meeting khusus.</p>
+                        <div class="shop-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.5 (320 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="shop-card">
+                    <div class="shop-img">
+                        <img src="https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Kopi Nusantara Menteng">
+                    </div>
+                    <div class="shop-content">
+                        <h3 class="shop-title">Kopi Nusantara Menteng</h3>
+                        <p class="shop-location"><i class="fas fa-map-marker-alt"></i> Jl. Menteng Raya No. 12, Jakarta Pusat</p>
+                        <p class="shop-desc">Konsep cozy dengan taman outdoor. Cocok untuk weekend brunch dengan keluarga.</p>
+                        <div class="shop-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>5.0 (280 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="shop-card">
+                    <div class="shop-img">
+                        <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Kopi Nusantara Kelapa Gading">
+                    </div>
+                    <div class="shop-content">
+                        <h3 class="shop-title">Kopi Nusantara Kelapa Gading</h3>
+                        <p class="shop-location"><i class="fas fa-map-marker-alt"></i> Mall Kelapa Gading, Lantai 3, Jakarta Utara</p>
+                        <p class="shop-desc">Coffee shop modern di dalam mall. Buka hingga pukul 22.00 setiap hari.</p>
+                        <div class="shop-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.0 (195 reviews)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="shop-card">
+                    <div class="shop-img">
+                        <img src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80" alt="Kopi Nusantara Pondok Indah">
+                    </div>
+                    <div class="shop-content">
+                        <h3 class="shop-title">Kopi Nusantara Pondok Indah</h3>
+                        <p class="shop-location"><i class="fas fa-map-marker-alt"></i> Jl. Metro Pondok Indah, Jakarta Selatan</p>
+                        <p class="shop-desc">Konsep industrial chic dengan roasting on-site. Bisa melihat proses roasting langsung.</p>
+                        <div class="shop-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.5 (256 reviews)</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="shop-content">
-              <h3 class="shop-title">Kopi Nusantara Senayan</h3>
-              <p class="shop-location">
-                <i class="fas fa-map-marker-alt"></i> Jl. Senayan No. 45,
-                Jakarta Selatan
-              </p>
-              <p class="shop-desc">
-                Outlet flagship kami dengan interior modern dan kapasitas besar.
-                Tersedia ruang meeting khusus.
-              </p>
-              <div class="shop-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>4.5 (320 reviews)</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="shop-card">
-            <div class="shop-img">
-              <img
-                src="https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
-                alt="Kopi Nusantara Menteng"
-              />
-            </div>
-            <div class="shop-content">
-              <h3 class="shop-title">Kopi Nusantara Menteng</h3>
-              <p class="shop-location">
-                <i class="fas fa-map-marker-alt"></i> Jl. Menteng Raya No. 12,
-                Jakarta Pusat
-              </p>
-              <p class="shop-desc">
-                Konsep cozy dengan taman outdoor. Cocok untuk weekend brunch
-                dengan keluarga.
-              </p>
-              <div class="shop-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <span>5.0 (280 reviews)</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="shop-card">
-            <div class="shop-img">
-              <img
-                src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-                alt="Kopi Nusantara Kelapa Gading"
-              />
-            </div>
-            <div class="shop-content">
-              <h3 class="shop-title">Kopi Nusantara Kelapa Gading</h3>
-              <p class="shop-location">
-                <i class="fas fa-map-marker-alt"></i> Mall Kelapa Gading, Lantai
-                3, Jakarta Utara
-              </p>
-              <p class="shop-desc">
-                Coffee shop modern di dalam mall. Buka hingga pukul 22.00 setiap
-                hari.
-              </p>
-              <div class="shop-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <span>4.0 (195 reviews)</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="shop-card">
-            <div class="shop-img">
-              <img
-                src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2068&q=80"
-                alt="Kopi Nusantara Pondok Indah"
-              />
-            </div>
-            <div class="shop-content">
-              <h3 class="shop-title">Kopi Nusantara Pondok Indah</h3>
-              <p class="shop-location">
-                <i class="fas fa-map-marker-alt"></i> Jl. Metro Pondok Indah,
-                Jakarta Selatan
-              </p>
-              <p class="shop-desc">
-                Konsep industrial chic dengan roasting on-site. Bisa melihat
-                proses roasting langsung.
-              </p>
-              <div class="shop-rating">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <span>4.5 (256 reviews)</span>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Contact Section -->
     <section class="contact section" id="contact">
-      <div class="container">
-        <h2 class="section-title">Kunjungi Kami</h2>
-
-        <div class="contact-content">
-          <div class="contact-info">
-            <div class="info-card">
-              <i class="fas fa-clock"></i>
-              <h3>Jam Operasional</h3>
-              <p>Senin - Jumat: 07.00 - 22.00</p>
-              <p>Sabtu - Minggu: 08.00 - 23.00</p>
+        <div class="container">
+            <h2 class="section-title">Kunjungi Kami</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Jam Operasional</h3>
+                        <p>Senin - Jumat: 07.00 - 22.00</p>
+                        <p>Sabtu - Minggu: 08.00 - 23.00</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telepon</h3>
+                        <p>021-1234-5678</p>
+                        <p>0812-3456-7890 (WhatsApp)</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@kopinusantara.com</p>
+                        <p>reservation@kopinusantara.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Pesan Meja atau Konsultasi</h3>
+                    <form id="reservationForm">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Nomor Telepon" required>
+                        <select required>
+                            <option value="" disabled selected>Pilih Outlet</option>
+                            <option value="senayan">Senayan</option>
+                            <option value="menteng">Menteng</option>
+                            <option value="kelapagading">Kelapa Gading</option>
+                            <option value="pondokindah">Pondok Indah</option>
+                        </select>
+                        <textarea placeholder="Pesan Tambahan" rows="4"></textarea>
+                        <button type="submit" class="btn-submit">Kirim Pesan</button>
+                    </form>
+                </div>
             </div>
-
-            <div class="info-card">
-              <i class="fas fa-phone"></i>
-              <h3>Telepon</h3>
-              <p>081-286-223-075</p>
-              <p>089-613-392-698 (WhatsApp)</p>
-            </div>
-
-            <div class="info-card">
-              <i class="fas fa-envelope"></i>
-              <h3>Email</h3>
-              <p>info@kopinusantara.com</p>
-              <p>reservation@kopinusantara.com</p>
-            </div>
-          </div>
-
-          <div class="contact-form">
-            <h3>Pesan Meja atau Konsultasi</h3>
-            <form id="reservationForm">
-              <input type="text" placeholder="Nama Lengkap" required />
-              <input type="email" placeholder="Email" required />
-              <input type="tel" placeholder="Nomor Telepon" required />
-              <select required>
-                <option value="" disabled selected>Pilih Outlet</option>
-                <option value="senayan">Senayan</option>
-                <option value="menteng">Menteng</option>
-                <option value="kelapagading">Kelapa Gading</option>
-                <option value="pondokindah">Pondok Indah</option>
-              </select>
-              <textarea placeholder="Pesan Tambahan" rows="4"></textarea>
-              <button type="submit" class="btn-submit">Kirim Pesan</button>
-            </form>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <h2>Kopi<span>Nusantara</span></h2>
-            <p>Menikmati kopi Indonesia, merayakan kekayaan nusantara.</p>
-          </div>
-
-          <div class="footer-links">
-            <h3>Tautan Cepat</h3>
-            <ul>
-              <li><a href="#home">Beranda</a></li>
-              <li><a href="#menu">Menu</a></li>
-              <li><a href="#coffeeshops">Lokasi</a></li>
-              <li><a href="#contact">Kontak</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-social">
-            <h3>Ikuti Kami</h3>
-            <div class="social-icons">
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-tiktok"></i></a>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Kopi<span>Nusantara</span></h2>
+                    <p>Menikmati kopi Indonesia, merayakan kekayaan nusantara.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#dessert">Dessert</a></li>
+                        <li><a href="#coffeeshops">Lokasi</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <p>Download Aplikasi Kami</p>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-google-play"></i> Google Play
+                        </a>
+                        <a href="#" class="app-btn">
+                            <i class="fab fa-app-store"></i> App Store
+                        </a>
+                    </div>
+                </div>
             </div>
-            <p>Download Aplikasi Kami</p>
-            <div class="app-buttons">
-              <a href="#" class="app-btn">
-                <i class="fab fa-google-play"></i> Google Play
-              </a>
-              <a href="#" class="app-btn">
-                <i class="fab fa-app-store"></i> App Store
-              </a>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Kopi Nusantara. Hak Cipta Dilindungi.</p>
+                <p>Website ini dibuat untuk tugas kelompok oleh [Nama Kelompok]</p>
             </div>
-          </div>
         </div>
-
-        <div class="footer-bottom">
-          <p>&copy; 2023 Kopi Nusantara. Hak Cipta Dilindungi.</p>
-          <p>Website ini dibuat untuk tugas kelompok oleh [3]</p>
-        </div>
-      </div>
     </footer>
 
     <!-- Order Modal (akan dibuat dinamis oleh JavaScript) -->
-
+    
     <!-- JavaScript -->
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
